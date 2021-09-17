@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration_part2.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Registration</h1>
+        <p>For students who join written exam</p>
+        
+            <form action="registration_part2.html" method="POST">
+
+                <div class="main1">
+                    <div class="upper">
+                        <label for="occupation">Occupation:</label>
+                        <input type="text" name="occupation" id="occupation"><br>
+                    </div>
+                    <div class="lower">
+                        <div class="leftpart">
+                            <label for="medicalNo">Medical No:</label>
+                            <input type="text" name="medicalNo" id="medicalNo"><br>
+                            <label for="trainingPackages">Training Packages</label>
+                            <input type="text" name="trainingPackages" id="trainingPackages"><br>
+                        </div>
+                        <div class="rightpart">
+                            <label for="issuedDate">Issued Date:</label>
+                            <input type="date" name="issuedDate" id="issuedDate"><br>
+                            <label for="initialPayment">Initial Payment:</label>
+                            <input type="text" name="initialPayment" id="initialPayment"><br>
+                        </div>
+                    </div>
+                </div>
+                <p>Applied Vehicle Classes</p>
+                <div class="main2">                  
+                    <div class="vehicle-box">
+                        <div id="vehicle">
+                            <h4>Vehicle class</h4>
+                            <label for="A">A:</label>
+                            <button id="vcl">edit</button><br>
+                            <label for="A">A:</label>
+                            <button id="vcl">edit</button><br>
+                            <label for="A">A:</label>
+                            <button id="vcl">edit</button><br>
+                        </div>
+                        <div class="type">
+                            <h4>Training type</h4>
+                            
+                            <select name="training" id="training">
+                                <option value="full">Full</option>
+                                <option value="half">Half</option>
+                                <option value="only training">Only training</option>
+                            </select>
+                            <br>
+                            <select name="training" id="training">
+                                <option value="full">Full</option>
+                                <option value="half">Half</option>
+                                <option value="only training">Only training</option>
+                            </select>
+                            <br>
+                            <select name="training" id="training">
+                                <option value="full">Full</option>
+                                <option value="half">Half</option>
+                                <option value="only training">Only training</option>
+                            </select>
+
+                        </div>
+                    </div>
+                    <div id="showprice">
+                        <button><a href="#">Show Price</a></button>
+                    </div>
+                </div>
+               
+                <div id="butt">
+                    <button><a href="#">Previous</a></button>
+                    <button><a href="#">Cancel</a></button>
+                    <button><a href="#">Save</a></button>
+                </div>
+                
+            </form>
+        
+
+
+    </div>
+</body>
+</html>
